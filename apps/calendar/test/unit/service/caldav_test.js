@@ -255,6 +255,7 @@ suite('service/caldav', function() {
           description: event.description,
           isRecurring: false,
           location: event.location,
+          attendees: event.attendees,
           start: subject.formatICALTime(event.startDate),
           end: subject.formatICALTime(event.endDate)
         };

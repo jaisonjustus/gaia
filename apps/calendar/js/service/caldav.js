@@ -318,6 +318,7 @@ Calendar.ns('Service').Caldav = (function() {
         isRecurring: event.isRecurring(),
         description: event.description,
         location: event.location,
+        attendees: event.attendees,
         start: this.formatICALTime(event.startDate),
         end: this.formatICALTime(event.endDate),
         exceptions: exceptions
